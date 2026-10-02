@@ -7,7 +7,7 @@ import os
 API_KEY     = os.getenv("ANGEL_API_KEY", "")
 CLIENT_CODE = os.getenv("ANGEL_CLIENT_CODE", "")
 MPIN        = os.getenv("ANGEL_MPIN", "")
-TOTP_SECRET = os.getenv("ANGEL_TOTP_SECRET", "")
+TOTP_SECRET = os.getenv("ANGEL_TOTP_SECRET", "").replace(" ", "").strip().upper()
 
 # ---- True = உண்மையான order போகாது. 2-3 வாரம் இப்படி ஓட்டிப் பாருங்க ----
 PAPER_TRADE = True
