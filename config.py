@@ -4,18 +4,17 @@
 import os
 
 # ---- Angel One SmartAPI login (environment variables) ----
-API_KEY     = os.getenv("ANGEL_API_KEY", "")
-CLIENT_CODE = os.getenv("ANGEL_CLIENT_CODE", "")
-MPIN        = os.getenv("ANGEL_MPIN", "")
+API_KEY     = os.getenv("ANGEL_API_KEY", "").strip()
+CLIENT_CODE = os.getenv("ANGEL_CLIENT_CODE", "").strip().upper()
+MPIN        = os.getenv("ANGEL_MPIN", "").strip()
 TOTP_SECRET = os.getenv("ANGEL_TOTP_SECRET", "").replace(" ", "").strip().upper()
 
 # ---- True = உண்மையான order போகாது. 2-3 வாரம் இப்படி ஓட்டிப் பாருங்க ----
 PAPER_TRADE = True
 
 # ------------------------------------------------------------
-# Scanner clauses — உங்க screenshot-லிருந்து நான் மறு-உருவாக்கியது.
-# துல்லியமாக இருக்க: Chartink-ல "Stock passes all of the below filters"
-# பக்கத்தில் இருக்கும் ஆரஞ்சு copy icon-ஐ தட்டி, உண்மையான clause-ஐ இங்கே paste பண்ணுங்க.
+# Scanner clauses — screenshot-லிருந்து மறு-உருவாக்கியது.
+# துல்லியமாக இருக்க: Chartink-ல ஆரஞ்சு copy icon-ஐ தட்டி உண்மையான clause-ஐ paste பண்ணுங்க.
 # {33489} = Chartink-ல futures (F&O) segment
 # ------------------------------------------------------------
 
@@ -32,7 +31,7 @@ CE_SCAN_CLAUSE = (
     "and [0] 15 minute volume > [0] 15 minute sma( [0] 15 minute volume , 10 ) * 1.8 ) )"
 )
 
-# PE scanner — "DOW EARANGUM" (bearish: முதல் முறையாக நேற்றைய low-ஐ உடைக்கும் 15-min candle)
+# PE scanner — "DOW EARANGUM" (bearish)
 PE_SCAN_CLAUSE = (
     "( {33489} ( [0] 15 minute close < 1 day ago low "
     "and [-1] 15 minute close >= 1 day ago low "
@@ -45,27 +44,25 @@ PE_SCAN_CLAUSE = (
     "and market cap > 1000 ) )"
 )
 
-# ---- Scan நேரங்கள்: ஒவ்வொரு 15-min candle முடிந்த பிறகு (candle முடியும் முன் scan பண்ணினா repaint ஆகும்) ----
+# ---- Scan நேரங்கள்: ஒவ்வொரு 15-min candle முடிந்த பிறகு ----
 SCAN_TIMES = ["09:30:20", "09:45:20", "10:00:20", "10:15:20", "10:30:20",
               "10:45:20", "11:00:20", "11:15:20", "11:30:20"]
 SQUARE_OFF_TIME = "15:10:00"
-# GitHub Actions-ல ஒரு job 6 மணி நேரம் மட்டுமே ஓடும். அதனால start ஆன நேரத்திலிருந்து
-# இத்தனை நிமிடத்துக்குள் கட்டாயம் square off (0 = இந்த வரம்பு இல்லை, laptop-க்கு)
+# GitHub Actions 6 மணி நேர வரம்பு: start-லிருந்து இத்தனை நிமிடத்துக்குள் square off
 MAX_RUNTIME_MIN = int(os.getenv("MAX_RUNTIME_MIN", "0"))
 
 # ---- Option தேர்வு ----
-STRIKE_OFFSET       = 0     # 0 = ATM, 1 = ஒரு strike ITM (delta அதிகம், decay குறைவு)
-MIN_DAYS_TO_EXPIRY  = 4     # expiry-க்கு 4 நாளுக்குக் குறைவா இருந்தா அடுத்த மாத contract
+STRIKE_OFFSET       = 0     # 0 = ATM, 1 = ஒரு strike ITM
+MIN_DAYS_TO_EXPIRY  = 4     # expiry-க்கு 4 நாளுக்குக் குறைவுன்னா அடுத்த மாத contract
 MAX_LOTS            = 1
-MAX_PREMIUM_CAPITAL = 40000 # ஒரு trade-க்கு அதிகபட்ச premium செலவு (₹). அதுக்கு மேல்னா skip
+MAX_PREMIUM_CAPITAL = 40000 # ஒரு trade-க்கு அதிகபட்ச premium (₹)
 
-# ---- Risk (underlying ஸ்டாக் விலையை வைத்து) ----
-# CE: SL = signal 15-min candle low   |  PE: SL = signal 15-min candle high
-MAX_UNDERLYING_SL_PCT = 1.2   # ஸ்டாக்கில் SL தூரம் இதைவிட அதிகம்னா skip
-RR_RATIO              = 2.0   # Target = 2 × risk (ஸ்டாக் விலையில்)
+# ---- Risk (ஸ்டாக் விலையை வைத்து) ----
+MAX_UNDERLYING_SL_PCT = 1.2   # SL தூரம் இதைவிட அதிகம்னா skip
+RR_RATIO              = 2.0   # Target = 2 × risk
 BREAKEVEN_AT_R        = 1.0   # 1R வந்ததும் SL-ஐ entry-க்கு நகர்த்தும்
-PREMIUM_HARD_SL_PCT   = 35    # Premium 35% விழுந்தால் எப்படியும் exit (broker-ல SL order)
+PREMIUM_HARD_SL_PCT   = 35    # Premium 35% விழுந்தால் exit
 
 MAX_TRADES_DAY   = 2
-LIMIT_BUFFER_PCT = 1.0   # Options-க்கு market order பதிலா LTP ± 1% limit order
+LIMIT_BUFFER_PCT = 1.0
 POLL_SECONDS     = 3
