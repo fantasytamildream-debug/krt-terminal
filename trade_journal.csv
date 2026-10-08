@@ -1,0 +1,2 @@
+date,underlying,side,option,qty,entry_prem,exit_prem,reason,spot_entry,spot_sl,spot_target,pnl,paper
+2026-10-08,NMDC,PE,NMDC27OCT2672PE,6750,1.82,2.57,TARGET,72.07,72.75,70.71,5062.5,True

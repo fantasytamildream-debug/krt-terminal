@@ -1,0 +1,45 @@
+2026-10-08 09:22:40,630  INFO  Algo start | PAPER_TRADE=True | square off by 15:02
+2026-10-08 09:22:44,030  INFO  Angel One login OK
+2026-10-08 09:22:51,045  INFO  Scrip master: 2707 equities, 213 option underlyings
+2026-10-08 09:30:21,231  INFO  CE scanner: []
+2026-10-08 09:30:22,412  INFO  PE scanner: ['PAYTM', 'ADANIPOWER', 'GMRAIRPORT', 'IRFC', 'NMDC', 'INOXWIND']
+2026-10-08 09:30:23,663  WARNING  PAYTM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-08 09:30:25,706  WARNING  ADANIPOWER evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-08 09:30:26,385  WARNING  GMRAIRPORT evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-08 09:30:27,088  WARNING  IRFC evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-08 09:30:31,090  WARNING  INOXWIND evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-08 09:30:31,091  INFO  RANKING: NMDC-PE(2.4)
+2026-10-08 09:30:32,342  INFO  [PAPER] BUY 6750 NMDC27OCT2672PE LIMIT @ 1.85 trig 0.0
+2026-10-08 09:30:32,343  INFO  [PAPER] SELL 6750 NMDC27OCT2672PE STOPLOSS_LIMIT @ 1.15 trig 1.2
+2026-10-08 09:30:32,343  INFO  TRADE NMDC27OCT2672PE x6750 @ ~1.82 | NMDC spot 72.07 SL 72.75 target 70.71 | premium hard SL 1.18
+2026-10-08 09:34:10,555  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa35710>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 09:38:16,328  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 09:40:27,909  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa35950>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 09:40:47,005  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 09:47:27,909  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 09:50:14,677  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 09:52:22,211  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa35310>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 09:57:46,324  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 10:05:34,882  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa35810>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 10:46:11,477  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 10:53:59,066  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa3d610>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 10:56:23,042  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 11:02:29,879  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa47690>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:11:45,200  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 11:18:23,044  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa3f0d0>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:22:41,583  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 11:24:53,841  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa37750>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:25:31,496  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa3ffd0>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:26:44,901  INFO  NMDC: 1R வந்தது, SL entry-க்கு நகர்த்தப்பட்டது (72.07)
+2026-10-08 11:30:47,310  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa37010>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:32:20,154  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 11:43:49,314  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa3e790>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 11:49:50,038  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 12:41:01,652  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa346d0>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 12:54:38,865  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa46c90>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 13:00:54,642  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-08 13:19:32,764  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa3d750>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 13:22:37,868  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f500aa459d0>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-08 13:27:03,644  INFO  [PAPER] SELL 6750 NMDC27OCT2672PE LIMIT @ 2.55 trig 0.0
+2026-10-08 13:27:03,644  INFO  EXIT NMDC27OCT2672PE @ 2.57 (TARGET)  P&L ≈ ₹5062.5
+2026-10-08 13:27:03,644  INFO  இன்றைய algo முடிந்தது.
