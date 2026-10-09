@@ -1,0 +1,38 @@
+2026-10-09 09:23:00,056  INFO  Algo start | PAPER_TRADE=True | square off by 15:03
+2026-10-09 09:23:04,050  INFO  Angel One login OK
+2026-10-09 09:23:10,896  INFO  Scrip master: 2707 equities, 213 option underlyings
+2026-10-09 09:30:21,257  INFO  CE scanner: []
+2026-10-09 09:30:22,332  INFO  PE scanner: ['KALYANKJIL', 'SWIGGY', 'MAHABANK']
+2026-10-09 09:30:23,131  WARNING  KALYANKJIL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-09 09:30:25,953  INFO  skip SWIGGY PE: SL 1.71% அதிகம்
+2026-10-09 09:30:28,552  INFO  RANKING: MAHABANK-PE(2.6)
+2026-10-09 09:30:31,528  INFO  [PAPER] BUY 6500 MAHABANK27OCT2683PE LIMIT @ 2.75 trig 0.0
+2026-10-09 09:30:31,529  INFO  [PAPER] SELL 6500 MAHABANK27OCT2683PE STOPLOSS_LIMIT @ 1.7 trig 1.75
+2026-10-09 09:30:31,529  INFO  TRADE MAHABANK27OCT2683PE x6500 @ ~2.7 | MAHABANK spot 83.05 SL 83.10 target 82.95 | premium hard SL 1.76
+2026-10-09 09:30:49,486  INFO  [PAPER] SELL 6500 MAHABANK27OCT2683PE LIMIT @ 2.65 trig 0.0
+2026-10-09 09:30:49,486  INFO  EXIT MAHABANK27OCT2683PE @ 2.7 (TARGET)  P&L ≈ ₹0.0
+2026-10-09 09:45:21,371  INFO  CE scanner: []
+2026-10-09 09:45:22,610  INFO  PE scanner: []
+2026-10-09 09:45:22,610  INFO  09:45:20: பொருந்தும் setup இல்லை
+2026-10-09 10:00:21,291  INFO  CE scanner: []
+2026-10-09 10:00:22,351  INFO  PE scanner: []
+2026-10-09 10:00:22,352  INFO  10:00:20: பொருந்தும் setup இல்லை
+2026-10-09 10:15:21,251  INFO  CE scanner: []
+2026-10-09 10:15:22,528  INFO  PE scanner: []
+2026-10-09 10:15:22,528  INFO  10:15:20: பொருந்தும் setup இல்லை
+2026-10-09 10:30:21,383  INFO  CE scanner: []
+2026-10-09 10:30:22,593  INFO  PE scanner: []
+2026-10-09 10:30:22,593  INFO  10:30:20: பொருந்தும் setup இல்லை
+2026-10-09 10:45:21,037  INFO  CE scanner: []
+2026-10-09 10:45:22,288  INFO  PE scanner: []
+2026-10-09 10:45:22,289  INFO  10:45:20: பொருந்தும் setup இல்லை
+2026-10-09 11:00:21,582  INFO  CE scanner: []
+2026-10-09 11:00:22,758  INFO  PE scanner: []
+2026-10-09 11:00:22,759  INFO  11:00:20: பொருந்தும் setup இல்லை
+2026-10-09 11:15:21,273  INFO  CE scanner: []
+2026-10-09 11:15:22,456  INFO  PE scanner: []
+2026-10-09 11:15:22,456  INFO  11:15:20: பொருந்தும் setup இல்லை
+2026-10-09 11:30:21,304  INFO  CE scanner: []
+2026-10-09 11:30:22,484  INFO  PE scanner: []
+2026-10-09 11:30:22,484  INFO  11:30:20: பொருந்தும் setup இல்லை
+2026-10-09 11:30:22,484  INFO  இன்றைய algo முடிந்தது.

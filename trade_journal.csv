@@ -1,2 +1,3 @@
 date,underlying,side,option,qty,entry_prem,exit_prem,reason,spot_entry,spot_sl,spot_target,pnl,paper
 2026-10-08,NMDC,PE,NMDC27OCT2672PE,6750,1.82,2.57,TARGET,72.07,72.75,70.71,5062.5,True
+2026-10-09,MAHABANK,PE,MAHABANK27OCT2683PE,6500,2.7,2.7,TARGET,83.05,83.1,82.95,0.0,True
