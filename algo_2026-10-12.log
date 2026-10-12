@@ -1,0 +1,37 @@
+2026-10-12 09:26:58,097  INFO  Algo start | PAPER_TRADE=True | square off by 15:06
+2026-10-12 09:26:59,655  INFO  Angel One login OK
+2026-10-12 09:27:06,096  INFO  Scrip master: 2725 equities, 213 option underlyings
+2026-10-12 09:30:21,061  INFO  CE scanner: ['MCX', 'AUROPHARMA']
+2026-10-12 09:30:22,064  INFO  PE scanner: ['TECHM']
+2026-10-12 09:30:28,841  INFO  skip MCX CE: SL 1.29% அதிகம்
+2026-10-12 09:30:35,939  WARNING  TECHM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-12 09:30:35,940  INFO  RANKING: AUROPHARMA-CE(1.4)
+2026-10-12 09:30:36,732  INFO  [PAPER] BUY 550 AUROPHARMA27OCT261700CE LIMIT @ 43.1 trig 0.0
+2026-10-12 09:30:36,732  INFO  [PAPER] SELL 550 AUROPHARMA27OCT261700CE STOPLOSS_LIMIT @ 26.9 trig 27.7
+2026-10-12 09:30:36,732  INFO  TRADE AUROPHARMA27OCT261700CE x550 @ ~42.65 | AUROPHARMA spot 1702.2 SL 1689.70 target 1727.20 | premium hard SL 27.72
+2026-10-12 09:44:13,312  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-12 10:02:59,791  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7fb7a7179b90>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-12 10:05:56,540  INFO  [PAPER] SELL 550 AUROPHARMA27OCT261700CE LIMIT @ 34.15 trig 0.0
+2026-10-12 10:05:56,540  INFO  EXIT AUROPHARMA27OCT261700CE @ 34.5 (SL)  P&L ≈ ₹-4482.5
+2026-10-12 10:05:57,646  INFO  CE scanner: []
+2026-10-12 10:05:58,954  INFO  PE scanner: []
+2026-10-12 10:05:58,954  INFO  10:00:20: பொருந்தும் setup இல்லை
+2026-10-12 10:15:21,029  INFO  CE scanner: []
+2026-10-12 10:15:21,980  INFO  PE scanner: []
+2026-10-12 10:15:21,981  INFO  10:15:20: பொருந்தும் setup இல்லை
+2026-10-12 10:30:21,001  INFO  CE scanner: []
+2026-10-12 10:30:21,989  INFO  PE scanner: []
+2026-10-12 10:30:21,989  INFO  10:30:20: பொருந்தும் setup இல்லை
+2026-10-12 10:45:21,024  INFO  CE scanner: []
+2026-10-12 10:45:22,394  INFO  PE scanner: []
+2026-10-12 10:45:22,394  INFO  10:45:20: பொருந்தும் setup இல்லை
+2026-10-12 11:00:20,995  INFO  CE scanner: []
+2026-10-12 11:00:21,980  INFO  PE scanner: []
+2026-10-12 11:00:21,980  INFO  11:00:20: பொருந்தும் setup இல்லை
+2026-10-12 11:15:21,055  INFO  CE scanner: []
+2026-10-12 11:15:22,390  INFO  PE scanner: []
+2026-10-12 11:15:22,390  INFO  11:15:20: பொருந்தும் setup இல்லை
+2026-10-12 11:30:21,002  INFO  CE scanner: []
+2026-10-12 11:30:21,952  INFO  PE scanner: []
+2026-10-12 11:30:21,953  INFO  11:30:20: பொருந்தும் setup இல்லை
+2026-10-12 11:30:21,953  INFO  இன்றைய algo முடிந்தது.
