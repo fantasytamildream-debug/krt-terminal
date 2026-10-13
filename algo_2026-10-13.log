@@ -1,0 +1,36 @@
+2026-10-13 09:25:53,069  INFO  Algo start | PAPER_TRADE=True | square off by 15:05
+2026-10-13 09:25:55,159  INFO  Angel One login OK
+2026-10-13 09:27:45,091  INFO  Scrip master: 2723 equities, 213 option underlyings
+2026-10-13 09:30:21,220  INFO  CE scanner: []
+2026-10-13 09:30:22,234  INFO  PE scanner: ['VEDL']
+2026-10-13 09:30:28,086  WARNING  VEDL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-13 09:30:28,087  INFO  09:30:20: பொருந்தும் setup இல்லை
+2026-10-13 09:45:21,022  INFO  CE scanner: []
+2026-10-13 09:45:22,069  INFO  PE scanner: []
+2026-10-13 09:45:22,069  INFO  09:45:20: பொருந்தும் setup இல்லை
+2026-10-13 10:00:21,078  INFO  CE scanner: ['PERSISTENT']
+2026-10-13 10:00:21,936  INFO  PE scanner: []
+2026-10-13 10:00:26,760  INFO  RANKING: PERSISTENT-CE(2.8)
+2026-10-13 10:00:28,289  INFO  [PAPER] BUY 125 PERSISTENT27OCT265900CE LIMIT @ 182.9 trig 0.0
+2026-10-13 10:00:28,289  INFO  [PAPER] SELL 125 PERSISTENT27OCT265900CE STOPLOSS_LIMIT @ 114.2 trig 117.7
+2026-10-13 10:00:28,289  INFO  TRADE PERSISTENT27OCT265900CE x125 @ ~181.1 | PERSISTENT spot 5882.5 SL 5846.50 target 5954.50 | premium hard SL 117.72
+2026-10-13 10:01:36,193  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 10:05:19,931  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 10:08:08,650  INFO  PERSISTENT: 1R வந்தது, SL entry-க்கு நகர்த்தப்பட்டது (5882.5)
+2026-10-13 10:16:30,403  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f629d136f50>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-13 10:21:28,446  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 10:26:53,192  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 10:31:26,368  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 10:35:59,548  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 11:08:52,557  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 11:10:29,475  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Max retries exceeded with url: /rest/secure/angelbroking/order/v1/getLtpData (Caused by ConnectTimeoutError(<HTTPSConnection(host='apiconnect.angelone.in', port=443) at 0x7f629d13d3d0>, 'Connection to apiconnect.angelone.in timed out. (connect timeout=7)'))
+2026-10-13 11:11:14,550  WARNING  LTP error: HTTPSConnectionPool(host='apiconnect.angelone.in', port=443): Read timed out. (read timeout=7)
+2026-10-13 11:22:31,117  INFO  [PAPER] SELL 125 PERSISTENT27OCT265900CE LIMIT @ 218.65 trig 0.0
+2026-10-13 11:22:31,118  INFO  EXIT PERSISTENT27OCT265900CE @ 220.85 (TARGET)  P&L ≈ ₹4968.75
+2026-10-13 11:22:32,326  INFO  CE scanner: []
+2026-10-13 11:22:33,374  INFO  PE scanner: []
+2026-10-13 11:22:33,374  INFO  11:15:20: பொருந்தும் setup இல்லை
+2026-10-13 11:30:20,929  INFO  CE scanner: []
+2026-10-13 11:30:21,999  INFO  PE scanner: []
+2026-10-13 11:30:21,999  INFO  11:30:20: பொருந்தும் setup இல்லை
+2026-10-13 11:30:21,999  INFO  இன்றைய algo முடிந்தது.
