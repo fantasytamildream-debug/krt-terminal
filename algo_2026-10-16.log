@@ -1,0 +1,32 @@
+2026-10-16 09:37:18,430  INFO  Algo start | PAPER_TRADE=True | square off by 15:10
+2026-10-16 09:37:19,877  INFO  Angel One login OK
+2026-10-16 09:37:26,097  INFO  Scrip master: 2721 equities, 213 option underlyings
+2026-10-16 09:37:27,389  INFO  CE scanner: []
+2026-10-16 09:37:28,376  INFO  PE scanner: []
+2026-10-16 09:37:28,377  INFO  09:30:20: பொருந்தும் setup இல்லை
+2026-10-16 09:45:21,243  INFO  CE scanner: []
+2026-10-16 09:45:22,415  INFO  PE scanner: []
+2026-10-16 09:45:22,416  INFO  09:45:20: பொருந்தும் setup இல்லை
+2026-10-16 10:00:21,324  INFO  CE scanner: []
+2026-10-16 10:00:22,494  INFO  PE scanner: []
+2026-10-16 10:00:22,495  INFO  10:00:20: பொருந்தும் setup இல்லை
+2026-10-16 10:15:21,230  INFO  CE scanner: []
+2026-10-16 10:15:22,404  INFO  PE scanner: []
+2026-10-16 10:15:22,404  INFO  10:15:20: பொருந்தும் setup இல்லை
+2026-10-16 10:30:21,466  INFO  CE scanner: []
+2026-10-16 10:30:22,709  INFO  PE scanner: []
+2026-10-16 10:30:22,709  INFO  10:30:20: பொருந்தும் setup இல்லை
+2026-10-16 10:45:21,333  INFO  CE scanner: []
+2026-10-16 10:45:22,541  INFO  PE scanner: []
+2026-10-16 10:45:22,541  INFO  10:45:20: பொருந்தும் setup இல்லை
+2026-10-16 11:00:21,635  INFO  CE scanner: ['LAURUSLABS']
+2026-10-16 11:00:22,833  INFO  PE scanner: []
+2026-10-16 11:00:23,565  WARNING  LAURUSLABS evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-16 11:00:23,566  INFO  11:00:20: பொருந்தும் setup இல்லை
+2026-10-16 11:15:21,188  INFO  CE scanner: []
+2026-10-16 11:15:22,698  INFO  PE scanner: []
+2026-10-16 11:15:22,698  INFO  11:15:20: பொருந்தும் setup இல்லை
+2026-10-16 11:30:21,180  INFO  CE scanner: []
+2026-10-16 11:30:22,758  INFO  PE scanner: []
+2026-10-16 11:30:22,758  INFO  11:30:20: பொருந்தும் setup இல்லை
+2026-10-16 11:30:22,758  INFO  இன்றைய algo முடிந்தது.
