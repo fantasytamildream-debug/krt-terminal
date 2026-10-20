@@ -1,0 +1,56 @@
+2026-10-20 09:39:06,966  INFO  Algo start | PAPER_TRADE=True | square off by 15:10
+2026-10-20 09:39:08,364  INFO  Angel One login OK
+2026-10-20 09:39:50,309  INFO  Scrip master: 2730 equities, 213 option underlyings
+2026-10-20 09:39:51,559  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 09:39:52,727  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 09:39:53,423  WARNING  ANANDRATHI evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:55,230  WARNING  NYKAA evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:55,958  WARNING  MANAPPURAM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:56,648  WARNING  JIOFIN evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:57,317  WARNING  RVNL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:58,027  WARNING  ADANIPOWER evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 09:39:58,028  INFO  09:30:20: பொருந்தும் setup இல்லை
+2026-10-20 09:45:21,268  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 09:45:22,551  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 09:45:30,290  INFO  09:45:20: பொருந்தும் setup இல்லை
+2026-10-20 10:00:21,011  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 10:00:22,245  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 10:00:33,166  INFO  10:00:20: பொருந்தும் setup இல்லை
+2026-10-20 10:15:21,220  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 10:15:22,392  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 10:15:24,717  WARNING  CDSL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:15:25,650  WARNING  NYKAA evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:15:26,641  WARNING  MANAPPURAM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:15:27,571  WARNING  JIOFIN evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:15:31,249  WARNING  ADANIPOWER evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:15:31,250  INFO  10:15:20: பொருந்தும் setup இல்லை
+2026-10-20 10:30:21,253  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 10:30:22,435  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 10:30:23,378  WARNING  ANANDRATHI evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:30:29,323  WARNING  MANAPPURAM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:30:36,123  INFO  10:30:20: பொருந்தும் setup இல்லை
+2026-10-20 10:45:21,246  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 10:45:22,447  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 10:45:23,168  WARNING  ANANDRATHI evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:45:24,068  WARNING  CDSL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:45:24,976  WARNING  NYKAA evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:45:25,831  WARNING  MANAPPURAM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:45:27,805  WARNING  RVNL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 10:45:28,952  INFO  10:45:20: பொருந்தும் setup இல்லை
+2026-10-20 11:00:21,265  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 11:00:22,468  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 11:00:24,339  WARNING  CDSL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:00:29,561  WARNING  ADANIPOWER evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:00:29,562  INFO  11:00:20: பொருந்தும் setup இல்லை
+2026-10-20 11:15:21,352  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 11:15:22,375  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 11:15:23,079  WARNING  ANANDRATHI evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:15:23,809  WARNING  CDSL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:15:27,834  WARNING  RVNL evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:15:28,559  WARNING  ADANIPOWER evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:15:28,559  INFO  11:15:20: பொருந்தும் setup இல்லை
+2026-10-20 11:30:21,101  INFO  CE scanner: ['ANANDRATHI']
+2026-10-20 11:30:22,142  INFO  PE scanner: ['CDSL', 'NYKAA', 'MANAPPURAM', 'JIOFIN', 'RVNL', 'ADANIPOWER']
+2026-10-20 11:30:26,222  WARNING  MANAPPURAM evaluate error: Couldn't parse the JSON response received from the server: b'Access denied because of exceeding access rate'
+2026-10-20 11:30:29,511  INFO  11:30:20: பொருந்தும் setup இல்லை
+2026-10-20 11:30:29,511  INFO  இன்றைய algo முடிந்தது.
